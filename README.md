@@ -1,6 +1,7 @@
 <img src="https://bluemixassets.eu-gb.mybluemix.net/api/Products/image/logos/basic.svg?key=[starter-basic]&event=readme-image-view" alt="Basic Logo" width="200px"/>
 
-## Enterprise MBaaS for iOS
+# Create an enterprise-ready iOS application with a secure backend for push notifications, data, storage, and authentication
+
 Enterprise ready mobile Backend as a Service with Push Notifications, Data, Storage and Authentication.
 
 [![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
