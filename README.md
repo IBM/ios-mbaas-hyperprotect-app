@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
+[![](https://img.shields.io/badge/IBM%20Cloud-powered-blue.svg)](https://bluemix.net)
 [![Platform](https://img.shields.io/badge/platform-ios_swift-lightgrey.svg?style=flat)](https://developer.apple.com/swift/)
 
 # Create an enterprise-ready iOS application with a secure backend for push notifications, data storage, and authentication
