@@ -1,33 +1,17 @@
 [![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
 [![Platform](https://img.shields.io/badge/platform-ios_swift-lightgrey.svg?style=flat)](https://developer.apple.com/swift/)
 
-# Create an enterprise-ready iOS application with a secure backend for push notifications, data, storage, and authentication
+# Create an enterprise-ready iOS application with a secure backend for push notifications, data storage, and authentication
 
-Enterprise ready mobile Backend as a Service with Push Notifications, Data, Storage and Authentication.
+The enterprise MBaaS mobile Swift starter kit is an empty project preconfigured with support for push notifications, data storage, and authentication.
 
-### Table of Contents
-* [Summary](#summary)
-* [Requirements](#requirements)
-* [Configuration](#configuration)
-* [Run](#run)
-* [License](#license)
-
-### Summary
-
-The Enterprise MBaaS mobile Swift starter kit is an empty project preconfigured with support for Push Notifications, Data, Storage and Authentication.
-
-### Requirements
+## Requirements
 
 * iOS 9.0+
 * Xcode 9.0
 * Swift 4.0
 
-### Configuration
-* [IBM Cloud Mobile services Dependency Management](#ibm-cloud-mobile-services-dependency-management)
-* [Mobile Foundation Configuration (Optional)](#mobile-foundation-configuration-optional)
-* [AppLaunch Configuration (Optional)](#applaunch-configuration-optional)
-
-#### IBM Cloud Mobile services Dependency Management
+## IBM Cloud Mobile services Dependency Management
 
 The IBM Cloud Mobile services SDK uses [CocoaPods](https://cocoapods.org/) to manage and configure dependencies.
 
@@ -57,13 +41,14 @@ $ pod update
 $ pod install
 ```
 
-### Run
+## Run
 
 Click **Product > Run** to start the app in Xcode.  You will see a screen like this:
 
-<img src="README_Images/basic_home_screen.png" alt="Empty App Screenshot" width="250px"/>
+![Empty App Screenshot](README_Images/basic_home_screen.png)
 
 The application has built in integration points  Push Notifications, Data, Storage and Authentication services.
 
-### License
-This package contains code licensed under the Apache License, Version 2.0 (the "License"). You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 and may also view the License in the LICENSE file within this package.
+## License
+
+[Apache 2.0](LICENSE)
