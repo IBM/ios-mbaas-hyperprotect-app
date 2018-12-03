@@ -3,7 +3,13 @@
 
 # Create an enterprise-ready iOS application with a secure backend for push notifications, data storage, and authentication
 
-The enterprise MBaaS mobile Swift starter kit is an empty project preconfigured with support for push notifications, data storage, and authentication.
+In this code pattern, you will create an enterprise-ready mobile backend as a service (MBaaS) using Swift and Hyper Protect Services. Hyper Protect Services bring continuous security to IBM Cloud, so all data is encrypted in flight, at rest, and in use. You'll essentially have an empty project with more data security than your typical MBaaS would, including highly secure push notifications, data storage, and authentication.
+
+When you have completed this code pattern, you will understand how to:
+
+* Build an iOS application
+* Provision and integrate with Push Notifications and Hyper Protect Crypto Services
+* Connect to additional IBM Cloud services
 
 ## Requirements
 
