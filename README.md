@@ -11,6 +11,8 @@ When you have completed this code pattern, you will understand how to:
 * Provision and integrate with Push Notifications and Hyper Protect Crypto Services
 * Connect to additional IBM Cloud services
 
+![](README_Images/architecture-mbaas.png)
+
 ## Steps
 
 > As an alternative to the steps below, you can [create this project as a starter kit](https://console.bluemix.net/developer/appledevelopment/create-app?defaultDeploymentToolchain=&defaultLanguage=IOS_SWIFT&env_id=ibm%3Ayp%3Aus-south&navMode=catalog&starterKit=bee074e4-a6c7-3cfd-b131-8d302942ee0a) on IBM Cloud, which automatically provisions required services, and injects service credentials into a custom fork of this pattern. Then, you can skip directly to step 3 below.
