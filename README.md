@@ -1,9 +1,9 @@
 [![](https://img.shields.io/badge/IBM%20Cloud-powered-blue.svg)](https://cloud.ibm.com)
 [![Platform](https://img.shields.io/badge/platform-ios_swift-lightgrey.svg?style=flat)](https://developer.apple.com/swift/)
 
-# Create an enterprise-ready iOS application with a secure backend for push notifications, data storage, and authentication
+# Create an enterprise-ready iOS application with a secure backend for push notifications, cryptography, and authentication
 
-In this code pattern, you will create an enterprise-ready mobile backend as a service (MBaaS) using Swift and Hyper Protect Services. Hyper Protect Services bring continuous security to IBM Cloud, so all data is encrypted in flight, at rest, and in use. You'll essentially have an empty project with more data security than your typical MBaaS would, including highly secure push notifications, data storage, and authentication.
+In this code pattern, you will create an enterprise-ready mobile backend as a service (MBaaS) using Swift and Hyper Protect Services. Hyper Protect Services bring continuous security to IBM Cloud, so all data is encrypted in flight, at rest, and in use. You'll essentially have an empty project with more data security than your typical MBaaS, including highly secure push notifications, cryptography, and authentication.
 
 When you have completed this code pattern, you will understand how to:
 
@@ -66,7 +66,7 @@ Click **Product > Run** to start the app in Xcode. You will see a screen like th
 
 ![Empty App Screenshot](README_Images/basic_home_screen.png)
 
-The application has built in integration points for Push Notifications, Data, Storage and Authentication services.
+The application has built in integration points for the Push Notifications, Hyper Protect Crypto, and App ID services.
 
 ## License
 
