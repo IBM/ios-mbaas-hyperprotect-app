@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		113611FB766E4169B2A812FE /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = C1F55B2833094708B11FCB12 /* .gitignore */; };
-		2339B647240046AF91FACECE /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = C0CC1B0C0CFA44DBBA784224 /* LICENSE */; };
-		9CC9F9FC0F55453CBF6BB341 /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07170B6328514B9689C8B8E7 /* BMSCredentials.plist */; };
+		C1D6FD58BB5D469CAF71C09D /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = FF44418DF51A4DA8B12EEC97 /* LICENSE */; };
+		481560DFCDA7457988E33B47 /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = ED1D36B249354B55A27973BC /* .gitignore */; };
+		218C39FE214943929149203E /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6312A2E47BC487AB5FD5BCD /* BMSCredentials.plist */; };
 		555C91AC1D0F0731003E84E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91AB1D0F0731003E84E3 /* AppDelegate.swift */; };
 		555C91AE1D0F0731003E84E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91AD1D0F0731003E84E3 /* ViewController.swift */; };
 		555C91B11D0F0731003E84E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555C91AF1D0F0731003E84E3 /* Main.storyboard */; };
@@ -39,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C1F55B2833094708B11FCB12 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = .gitignore; path = .gitignore; sourceTree = "<group>"; };
-		C0CC1B0C0CFA44DBBA784224 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LICENSE; path = LICENSE; sourceTree = "<group>"; };
-		07170B6328514B9689C8B8E7 /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BMSCredentials.plist; path = BMSCredentials.plist; sourceTree = "<group>"; };
+		FF44418DF51A4DA8B12EEC97 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LICENSE; path = LICENSE; sourceTree = "<group>"; };
+		ED1D36B249354B55A27973BC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = .gitignore; path = .gitignore; sourceTree = "<group>"; };
+		E6312A2E47BC487AB5FD5BCD /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BMSCredentials.plist; path = BMSCredentials.plist; sourceTree = "<group>"; };
 		0F10189F0EAC0D667CEB59F6 /* Pods-MySampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySampleAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySampleAppTests/Pods-MySampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		11E82E2A01DF386A2BD70BE6 /* Pods-MySampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySampleApp/Pods-MySampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		1C8444BFD52D97CDB7A1B788 /* Pods_MySampleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySampleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,7 +128,7 @@
 		555C91AA1D0F0731003E84E3 /* swiftmbaas */ = {
 			isa = PBXGroup;
 			children = (
-				07170B6328514B9689C8B8E7 /* BMSCredentials.plist */,
+				E6312A2E47BC487AB5FD5BCD /* BMSCredentials.plist */,
 				555C91AB1D0F0731003E84E3 /* AppDelegate.swift */,
 				555C91AD1D0F0731003E84E3 /* ViewController.swift */,
 				555C91AF1D0F0731003E84E3 /* Main.storyboard */,
@@ -286,7 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC9F9FC0F55453CBF6BB341 /* BMSCredentials.plist in Resources */,
+				218C39FE214943929149203E /* BMSCredentials.plist in Resources */,
 				555C91B61D0F0731003E84E3 /* LaunchScreen.storyboard in Resources */,
 				555C91B31D0F0731003E84E3 /* Assets.xcassets in Resources */,
 				555C91B11D0F0731003E84E3 /* Main.storyboard in Resources */,
