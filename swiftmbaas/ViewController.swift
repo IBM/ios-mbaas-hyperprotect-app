@@ -1,11 +1,12 @@
 //
 //  ViewController.swift
-//  MySampleApp
+//  swiftmbaas
 //
 
 import UIKit
 import BMSCore
 import BMSPush
+
 
 
 
@@ -22,7 +23,7 @@ class ViewController: UIViewController {
 
         NotificationCenter.default.addObserver(self,
                                                 selector: #selector(didBecomeActive),
-                                                name: NSNotification.Name.UIApplicationDidBecomeActive,
+                                                name: UIApplication.didBecomeActiveNotification,
                                                 object: nil)
 
         
@@ -31,7 +32,7 @@ class ViewController: UIViewController {
         
     }
 
-    func didBecomeActive(_ notification: Notification) {
+    @objc func didBecomeActive(_ notification: Notification) {
         
         
     }

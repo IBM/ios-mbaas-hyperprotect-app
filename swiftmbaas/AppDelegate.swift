@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  MySampleApp
+//  swiftmbaas
 //
 
 import UIKit
@@ -10,12 +10,13 @@ import BMSPush
 
 
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         let myBMSClient = BMSClient.sharedInstance
         myBMSClient.initialize(bluemixRegion: BMSClient.Region.usSouth)
@@ -30,23 +31,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         
         
+        
         return true
     }
 
     
-    // Initialize Bluemix Push Notifications client SDK and register device.
+    // Initialize IBM Cloud Push Notifications client SDK and register device.
     func application (_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data){
         let push = BMSPushClient.sharedInstance
 
         // Replace USER_ID with a unique end user identifier. This enables specific push notification targeting.
         push.registerWithDeviceToken(deviceToken: deviceToken, WithUserId: "USER_ID") { (response, statusCode, error) -> Void in
             if error.isEmpty {
-                print("Response during device registration : \(response)")
-                print("status code during device registration : \(statusCode)")
-            } else {
-                print("Error during device registration \(error)")
-                print("Error during device registration \n  - status code: \(statusCode) \n  - Error: \(error) \n")
-            }
+                 print("Response during device registration : \(String(describing: response))")
+                 print("status code during device registration : \(String(describing: statusCode))")
+             } else {
+                 print("Error during device registration \(error)")
+                 print("Error during device registration \n  - status code: \(String(describing: statusCode)) \n  - Error: \(error) \n")
+             }
         }
     }
     // Alerts the user of a received push notification when the app is running in the foreground.
@@ -60,11 +62,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let alert = UIAlertController(title: "Push Notification Received",
                                       message: payload as String,
-                                      preferredStyle: UIAlertControllerStyle.alert)
-        alert.addAction(UIAlertAction(title: "Okay", style: UIAlertActionStyle.default, handler: nil))
+                                      preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Okay", style: UIAlertAction.Style.default, handler: nil))
         application.keyWindow?.rootViewController?.present(alert, animated: true, completion: nil)
-    	
-        print("Recieved Bluemix Push Notifications message: " + (payload as String) + ", payload: " + (userPayload as String))
+
+        print("Recieved IBM Cloud Push Notifications message: " + (payload as String) + ", payload: " + (userPayload as String))
     }
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
