@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  MySampleApp
+//  swiftmbaas
 //
 
 import UIKit

@@ -1,11 +1,11 @@
 //
-//  MySampleAppUITests.swift
-//  MySampleAppUITests
+//  swiftmbaasUITests.swift
+//  swiftmbaasUITests
 //
 
 import XCTest
 
-class MySampleAppUITests: XCTestCase {
+class swiftmbaasUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
