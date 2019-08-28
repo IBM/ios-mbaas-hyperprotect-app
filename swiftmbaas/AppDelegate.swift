@@ -7,10 +7,6 @@ import UIKit
 import BMSCore
 import BMSPush
 
-
-
-
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -22,19 +18,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         myBMSClient.initialize(bluemixRegion: BMSClient.Region.usSouth)
         myBMSClient.requestTimeout = 10.0 // seconds
 
-        
-
         if let contents = Bundle.main.path(forResource:"BMSCredentials", ofType: "plist"), let dictionary = NSDictionary(contentsOfFile: contents) {
         	let push = BMSPushClient.sharedInstance
-        	push.initializeWithAppGUID(appGUID: dictionary["pushAppGuid"] as! String, clientSecret: dictionary["pushClientSecret"] as! String)
+            push.initializeWithAppGUID(appGUID: (dictionary["pushAppGuid"] ?? "") as! String , clientSecret: (dictionary["pushClientSecret"] ?? "") as! String)
+        } else {
+            print("Could not find BMSCredentials")
         }
-
-        
-        
         
         return true
     }
-
     
     // Initialize IBM Cloud Push Notifications client SDK and register device.
     func application (_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data){
@@ -89,6 +81,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }

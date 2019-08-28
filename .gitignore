@@ -1,3 +1,6 @@
-
 swiftmbaas-Swift/swiftmbaas/BMSCredentials.plist
 ios_swift/swiftmbaas/BMSCredentials.plist
+Pods
+*.lock
+.history/
+swiftmbaas.xcworkspace/*
