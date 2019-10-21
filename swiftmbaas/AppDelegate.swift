@@ -9,17 +9,17 @@ import BMSPush
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
+        
         let myBMSClient = BMSClient.sharedInstance
         myBMSClient.initialize(bluemixRegion: BMSClient.Region.usSouth)
         myBMSClient.requestTimeout = 10.0 // seconds
-
+        
         if let contents = Bundle.main.path(forResource:"BMSCredentials", ofType: "plist"), let dictionary = NSDictionary(contentsOfFile: contents) {
-        	let push = BMSPushClient.sharedInstance
+            let push = BMSPushClient.sharedInstance
             push.initializeWithAppGUID(appGUID: (dictionary["pushAppGuid"] ?? "") as! String , clientSecret: (dictionary["pushClientSecret"] ?? "") as! String)
         } else {
             print("Could not find BMSCredentials")
@@ -31,16 +31,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Initialize IBM Cloud Push Notifications client SDK and register device.
     func application (_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data){
         let push = BMSPushClient.sharedInstance
-
+        
         // Replace USER_ID with a unique end user identifier. This enables specific push notification targeting.
         push.registerWithDeviceToken(deviceToken: deviceToken, WithUserId: "USER_ID") { (response, statusCode, error) -> Void in
             if error.isEmpty {
-                 print("Response during device registration : \(String(describing: response))")
-                 print("status code during device registration : \(String(describing: statusCode))")
-             } else {
-                 print("Error during device registration \(error)")
-                 print("Error during device registration \n  - status code: \(String(describing: statusCode)) \n  - Error: \(error) \n")
-             }
+                print("Response during device registration : \(String(describing: response))")
+                print("status code during device registration : \(String(describing: statusCode))")
+            } else {
+                print("Error during device registration \(error)")
+                print("Error during device registration \n  - status code: \(String(describing: statusCode)) \n  - Error: \(error) \n")
+            }
         }
     }
     // Alerts the user of a received push notification when the app is running in the foreground.
@@ -48,36 +48,48 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // UserInfo dictionary will contain data sent from the server.
         var userPayload = String()
-        let payload = ((((userInfo as NSDictionary).value(forKey:"aps") as! NSDictionary).value(forKey:"alert") as! NSDictionary).value(forKey:"body") as! NSString)
+        guard let aps = (userInfo as NSDictionary).value(forKey:"aps") as? NSDictionary,
+            let alrt = aps.value(forKey:"alert") as? NSDictionary,
+            let body =  alrt.value(forKey:"body") as? NSString else {
+                print("Invalid Payload")
+                return
+        }
+        
         let additionalPayload = (userInfo as NSDictionary).value(forKey:"payload")
         userPayload = additionalPayload.debugDescription
-
+        
         let alert = UIAlertController(title: "Push Notification Received",
-                                      message: payload as String,
+                                      message: body as String,
                                       preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: "Okay", style: UIAlertAction.Style.default, handler: nil))
-        application.keyWindow?.rootViewController?.present(alert, animated: true, completion: nil)
-
-        print("Recieved IBM Cloud Push Notifications message: " + (payload as String) + ", payload: " + (userPayload as String))
+        
+        guard let keyWindow = application.keyWindow, let rootViewController = keyWindow.rootViewController else {
+            print("Push notification error")
+            return
+        }
+        
+        rootViewController.present(alert, animated: true, completion: nil)
+        
+        print("Recieved IBM Cloud Push Notifications message: " + (body as String) + ", payload: " + (userPayload as String))
     }
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     }
-
+    
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     }
-
+    
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
     }
-
+    
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     }
-
+    
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
