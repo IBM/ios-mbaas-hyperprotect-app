@@ -22,15 +22,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         myBMSClient.initialize(bluemixRegion: BMSClient.Region.usSouth)
         myBMSClient.requestTimeout = 10.0 // seconds
 
-        
-
-        if let contents = Bundle.main.path(forResource:"BMSCredentials", ofType: "plist"), let dictionary = NSDictionary(contentsOfFile: contents) {
-        	let push = BMSPushClient.sharedInstance
-        	push.initializeWithAppGUID(appGUID: dictionary["pushAppGuid"] as! String, clientSecret: dictionary["pushClientSecret"] as! String)
+        if let contents = Bundle.main.path(forResource:"BMSCredentials", ofType: "plist"), let creds = NSDictionary(contentsOfFile: contents),
+            let pushConfig = creds["push"] as? NSDictionary {
+            let push = BMSPushClient.sharedInstance
+            push.initializeWithAppGUID(appGUID: pushConfig["appGuid"] as! String, clientSecret: pushConfig["clientSecret"] as! String)
         }
-
-        
-        
         
         return true
     }
