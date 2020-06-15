@@ -4,7 +4,7 @@
 //
 
 import XCTest
-@testable import swiftmbaas
+@testable import iosapp
 
 class swiftmbaasTests: XCTestCase {
     

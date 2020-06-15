@@ -1,7 +1,7 @@
 # Uncomment this line to define a global platform for your project
 platform :ios, '12.0'
 
-target 'swiftmbaas' do
+target 'iosmbaashyperprotectapp' do
     pod 'BMSCore', '~> 2.0'
 
     pod 'BMSPush', '~> 3.0'
@@ -10,12 +10,12 @@ target 'swiftmbaas' do
 
   # Pods for swiftmbaas
 
-  target 'swiftmbaasTests' do
+  target 'iosmbaashyperprotectappTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'swiftmbaasUITests' do
+  target 'iosmbaashyperprotectappUITests' do
     inherit! :search_paths
     # Pods for testing
   end

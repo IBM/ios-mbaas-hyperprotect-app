@@ -1,3 +1,4 @@
-
+.DS_Store
+iosapp/BMSCredentials.plist
 swiftmbaas-Swift/swiftmbaas/BMSCredentials.plist
 ios_swift/swiftmbaas/BMSCredentials.plist
