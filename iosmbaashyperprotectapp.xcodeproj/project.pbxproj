@@ -252,16 +252,16 @@
 				TargetAttributes = {
 					555C91A71D0F0731003E84E3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1110;
 					};
 					555C91BB1D0F0731003E84E3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1110;
 						TestTargetID = 555C91A71D0F0731003E84E3;
 					};
 					555C91C61D0F0731003E84E3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1110;
 						TestTargetID = 555C91A71D0F0731003E84E3;
 					};
 				};
@@ -574,7 +574,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosmbaashyperprotectapp;
 				PRODUCT_NAME = iosmbaashyperprotectapp;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -590,7 +590,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosmbaashyperprotectapp;
 				PRODUCT_NAME = iosmbaashyperprotectapp;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -605,7 +605,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosmbaashyperprotectappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosmbaashyperprotectapp.app/iosmbaashyperprotectapp";
 			};
 			name = Debug;
@@ -621,7 +621,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosmbaashyperprotectappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosmbaashyperprotectapp.app/iosmbaashyperprotectapp";
 			};
 			name = Release;
@@ -636,7 +636,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosmbaashyperprotectappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = swiftmbaas;
 			};
 			name = Debug;
@@ -651,7 +651,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosmbaashyperprotectappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = swiftmbaas;
 			};
 			name = Release;
