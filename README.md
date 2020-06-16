@@ -25,9 +25,9 @@ When you have completed this code pattern, you will understand how to:
 
 Ensure you have the [required developer tools installed from Apple](https://developer.apple.com/download/):
 
-* iOS 9.0+
-* Xcode 9.0
-* Swift 4.0
+* iOS 10.0+
+* Xcode 11.0+
+* Swift 5.0
 
 ## 2. Install dependencies
 

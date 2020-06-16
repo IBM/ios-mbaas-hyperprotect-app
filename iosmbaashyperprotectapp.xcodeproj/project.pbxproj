@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		145D5BAD6BD8462490642F64 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = E1F9E1E2E40E4D9FB16AF6EE /* LICENSE */; };
-		B2395B8FC8F44E39B7B142AF /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = CE62661A8DC64A8788A9CA87 /* .gitignore */; };
-		AB9E4929B36942FDA428722A /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71AF3E7218A145F1B154602B /* BMSCredentials.plist */; };
-		0C7D4CB2984D3D63B50F6CB9 /* Pods_swiftmbaas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C588E03443573F2DDF2BE953 /* Pods_swiftmbaas.framework */; };
+		29E2A17C93FF45CA244CA6C8 /* Pods_iosmbaashyperprotectappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C97744EB1F82C7D1B13C61 /* Pods_iosmbaashyperprotectappTests.framework */; };
 		555C91AC1D0F0731003E84E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91AB1D0F0731003E84E3 /* AppDelegate.swift */; };
 		555C91AE1D0F0731003E84E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91AD1D0F0731003E84E3 /* ViewController.swift */; };
 		555C91B11D0F0731003E84E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555C91AF1D0F0731003E84E3 /* Main.storyboard */; };
 		555C91B31D0F0731003E84E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555C91B21D0F0731003E84E3 /* Assets.xcassets */; };
 		555C91B61D0F0731003E84E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555C91B41D0F0731003E84E3 /* LaunchScreen.storyboard */; };
-		555C91C11D0F0731003E84E3 /* swiftmbaasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91C01D0F0731003E84E3 /* swiftmbaasTests.swift */; };
-		555C91CC1D0F0731003E84E3 /* swiftmbaasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91CB1D0F0731003E84E3 /* swiftmbaasUITests.swift */; };
-		873310C0C7B2ABB91C7D52FD /* Pods_swiftmbaasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B5A393DF200730607CBCEB /* Pods_swiftmbaasUITests.framework */; };
-		EAD767594B197EC0EC3F0D1C /* Pods_swiftmbaasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8444BFD52D97CDB7A1B788 /* Pods_swiftmbaasTests.framework */; };
+		555C91C11D0F0731003E84E3 /* iosmbaashyperprotectappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91C01D0F0731003E84E3 /* iosmbaashyperprotectappTests.swift */; };
+		555C91CC1D0F0731003E84E3 /* iosmbaashyperprotectappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91CB1D0F0731003E84E3 /* iosmbaashyperprotectappUITests.swift */; };
+		AB9E4929B36942FDA428722A /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71AF3E7218A145F1B154602B /* BMSCredentials.plist */; };
+		DB1F6BBF3E370C2956EAD61F /* Pods_iosmbaashyperprotectapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79BF7D8C916F491FEDD99BD /* Pods_iosmbaashyperprotectapp.framework */; };
+		EAD5FBAD78C93C46E0298C04 /* Pods_iosmbaashyperprotectappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151B956C4045DDE5CFDF5722 /* Pods_iosmbaashyperprotectappUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,31 +38,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E1F9E1E2E40E4D9FB16AF6EE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LICENSE; path = LICENSE; sourceTree = "<group>"; };
-		CE62661A8DC64A8788A9CA87 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = .gitignore; path = .gitignore; sourceTree = "<group>"; };
-		71AF3E7218A145F1B154602B /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BMSCredentials.plist; path = BMSCredentials.plist; sourceTree = "<group>"; };
+		02C97744EB1F82C7D1B13C61 /* Pods_iosmbaashyperprotectappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosmbaashyperprotectappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F10189F0EAC0D667CEB59F6 /* Pods-swiftmbaasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftmbaasTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftmbaasTests/Pods-swiftmbaasTests.release.xcconfig"; sourceTree = "<group>"; };
+		10683A5EFCE6D38F5865DCA4 /* Pods-iosmbaashyperprotectapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosmbaashyperprotectapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosmbaashyperprotectapp/Pods-iosmbaashyperprotectapp.debug.xcconfig"; sourceTree = "<group>"; };
 		11E82E2A01DF386A2BD70BE6 /* Pods-swiftmbaas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftmbaas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftmbaas/Pods-swiftmbaas.debug.xcconfig"; sourceTree = "<group>"; };
-		1C8444BFD52D97CDB7A1B788 /* Pods_swiftmbaasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftmbaasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		151B956C4045DDE5CFDF5722 /* Pods_iosmbaashyperprotectappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosmbaashyperprotectappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCAB15229E227CD9B62C913 /* Pods-swiftmbaas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftmbaas.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftmbaas/Pods-swiftmbaas.release.xcconfig"; sourceTree = "<group>"; };
-		555C91A81D0F0731003E84E3 /* swiftmbaas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftmbaas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		421ECF48CE1A15A5D40E24C1 /* Pods-iosmbaashyperprotectappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosmbaashyperprotectappTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosmbaashyperprotectappTests/Pods-iosmbaashyperprotectappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		555C91A81D0F0731003E84E3 /* iosmbaashyperprotectapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosmbaashyperprotectapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		555C91AB1D0F0731003E84E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		555C91AD1D0F0731003E84E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		555C91B01D0F0731003E84E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		555C91B21D0F0731003E84E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		555C91B51D0F0731003E84E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		555C91B71D0F0731003E84E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		555C91BC1D0F0731003E84E3 /* swiftmbaasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftmbaasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		555C91C01D0F0731003E84E3 /* swiftmbaasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftmbaasTests.swift; sourceTree = "<group>"; };
+		555C91BC1D0F0731003E84E3 /* iosmbaashyperprotectappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosmbaashyperprotectappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		555C91C01D0F0731003E84E3 /* iosmbaashyperprotectappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosmbaashyperprotectappTests.swift; sourceTree = "<group>"; };
 		555C91C21D0F0731003E84E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		555C91C71D0F0731003E84E3 /* swiftmbaasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftmbaasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		555C91CB1D0F0731003E84E3 /* swiftmbaasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftmbaasUITests.swift; sourceTree = "<group>"; };
+		555C91C71D0F0731003E84E3 /* iosmbaashyperprotectappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosmbaashyperprotectappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		555C91CB1D0F0731003E84E3 /* iosmbaashyperprotectappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosmbaashyperprotectappUITests.swift; sourceTree = "<group>"; };
 		555C91CD1D0F0731003E84E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6079FEEC33F8145DDDA4A629 /* Pods-swiftmbaasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftmbaasTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftmbaasTests/Pods-swiftmbaasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		71AF3E7218A145F1B154602B /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BMSCredentials.plist; sourceTree = "<group>"; };
+		7B51FAF18CA35752552F0D97 /* Pods-iosmbaashyperprotectappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosmbaashyperprotectappUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosmbaashyperprotectappUITests/Pods-iosmbaashyperprotectappUITests.release.xcconfig"; sourceTree = "<group>"; };
 		81F0A538FA2D46C0292F70E6 /* Pods-swiftmbaasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftmbaasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftmbaasUITests/Pods-swiftmbaasUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9055531899FF137C2C228D44 /* Pods-swiftmbaasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftmbaasUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftmbaasUITests/Pods-swiftmbaasUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B4B5A393DF200730607CBCEB /* Pods_swiftmbaasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftmbaasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C588E03443573F2DDF2BE953 /* Pods_swiftmbaas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftmbaas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65933A09D570A6EF91729CE /* Pods-iosmbaashyperprotectappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosmbaashyperprotectappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosmbaashyperprotectappUITests/Pods-iosmbaashyperprotectappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D99A5E0ECCCAA407125167C9 /* Pods-iosmbaashyperprotectapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosmbaashyperprotectapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosmbaashyperprotectapp/Pods-iosmbaashyperprotectapp.release.xcconfig"; sourceTree = "<group>"; };
+		DA8DC7FBF5AC6B89ABB63AAE /* Pods-iosmbaashyperprotectappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosmbaashyperprotectappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosmbaashyperprotectappTests/Pods-iosmbaashyperprotectappTests.release.xcconfig"; sourceTree = "<group>"; };
+		F79BF7D8C916F491FEDD99BD /* Pods_iosmbaashyperprotectapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosmbaashyperprotectapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C7D4CB2984D3D63B50F6CB9 /* Pods_swiftmbaas.framework in Frameworks */,
+				DB1F6BBF3E370C2956EAD61F /* Pods_iosmbaashyperprotectapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD767594B197EC0EC3F0D1C /* Pods_swiftmbaasTests.framework in Frameworks */,
+				29E2A17C93FF45CA244CA6C8 /* Pods_iosmbaashyperprotectappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873310C0C7B2ABB91C7D52FD /* Pods_swiftmbaasUITests.framework in Frameworks */,
+				EAD5FBAD78C93C46E0298C04 /* Pods_iosmbaashyperprotectappUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,9 +100,9 @@
 		545C9DD4D3D79A706E9BC9CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C588E03443573F2DDF2BE953 /* Pods_swiftmbaas.framework */,
-				1C8444BFD52D97CDB7A1B788 /* Pods_swiftmbaasTests.framework */,
-				B4B5A393DF200730607CBCEB /* Pods_swiftmbaasUITests.framework */,
+				F79BF7D8C916F491FEDD99BD /* Pods_iosmbaashyperprotectapp.framework */,
+				02C97744EB1F82C7D1B13C61 /* Pods_iosmbaashyperprotectappTests.framework */,
+				151B956C4045DDE5CFDF5722 /* Pods_iosmbaashyperprotectappUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,9 +110,9 @@
 		555C919F1D0F0731003E84E3 = {
 			isa = PBXGroup;
 			children = (
-				555C91AA1D0F0731003E84E3 /* swiftmbaas */,
-				555C91BF1D0F0731003E84E3 /* swiftmbaasTests */,
-				555C91CA1D0F0731003E84E3 /* swiftmbaasUITests */,
+				555C91AA1D0F0731003E84E3 /* iosapp */,
+				555C91BF1D0F0731003E84E3 /* iosappTests */,
+				555C91CA1D0F0731003E84E3 /* iosappUITests */,
 				555C91A91D0F0731003E84E3 /* Products */,
 				A4160B77D037FA5B9F790955 /* Pods */,
 				545C9DD4D3D79A706E9BC9CE /* Frameworks */,
@@ -120,14 +122,14 @@
 		555C91A91D0F0731003E84E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				555C91A81D0F0731003E84E3 /* swiftmbaas.app */,
-				555C91BC1D0F0731003E84E3 /* swiftmbaasTests.xctest */,
-				555C91C71D0F0731003E84E3 /* swiftmbaasUITests.xctest */,
+				555C91A81D0F0731003E84E3 /* iosmbaashyperprotectapp.app */,
+				555C91BC1D0F0731003E84E3 /* iosmbaashyperprotectappTests.xctest */,
+				555C91C71D0F0731003E84E3 /* iosmbaashyperprotectappUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		555C91AA1D0F0731003E84E3 /* swiftmbaas */ = {
+		555C91AA1D0F0731003E84E3 /* iosapp */ = {
 			isa = PBXGroup;
 			children = (
 				71AF3E7218A145F1B154602B /* BMSCredentials.plist */,
@@ -138,25 +140,25 @@
 				555C91B41D0F0731003E84E3 /* LaunchScreen.storyboard */,
 				555C91B71D0F0731003E84E3 /* Info.plist */,
 			);
-			path = swiftmbaas;
+			path = iosapp;
 			sourceTree = "<group>";
 		};
-		555C91BF1D0F0731003E84E3 /* swiftmbaasTests */ = {
+		555C91BF1D0F0731003E84E3 /* iosappTests */ = {
 			isa = PBXGroup;
 			children = (
-				555C91C01D0F0731003E84E3 /* swiftmbaasTests.swift */,
+				555C91C01D0F0731003E84E3 /* iosmbaashyperprotectappTests.swift */,
 				555C91C21D0F0731003E84E3 /* Info.plist */,
 			);
-			path = swiftmbaasTests;
+			path = iosappTests;
 			sourceTree = "<group>";
 		};
-		555C91CA1D0F0731003E84E3 /* swiftmbaasUITests */ = {
+		555C91CA1D0F0731003E84E3 /* iosappUITests */ = {
 			isa = PBXGroup;
 			children = (
-				555C91CB1D0F0731003E84E3 /* swiftmbaasUITests.swift */,
+				555C91CB1D0F0731003E84E3 /* iosmbaashyperprotectappUITests.swift */,
 				555C91CD1D0F0731003E84E3 /* Info.plist */,
 			);
-			path = swiftmbaasUITests;
+			path = iosappUITests;
 			sourceTree = "<group>";
 		};
 		A4160B77D037FA5B9F790955 /* Pods */ = {
@@ -168,6 +170,12 @@
 				0F10189F0EAC0D667CEB59F6 /* Pods-swiftmbaasTests.release.xcconfig */,
 				81F0A538FA2D46C0292F70E6 /* Pods-swiftmbaasUITests.debug.xcconfig */,
 				9055531899FF137C2C228D44 /* Pods-swiftmbaasUITests.release.xcconfig */,
+				10683A5EFCE6D38F5865DCA4 /* Pods-iosmbaashyperprotectapp.debug.xcconfig */,
+				D99A5E0ECCCAA407125167C9 /* Pods-iosmbaashyperprotectapp.release.xcconfig */,
+				421ECF48CE1A15A5D40E24C1 /* Pods-iosmbaashyperprotectappTests.debug.xcconfig */,
+				DA8DC7FBF5AC6B89ABB63AAE /* Pods-iosmbaashyperprotectappTests.release.xcconfig */,
+				C65933A09D570A6EF91729CE /* Pods-iosmbaashyperprotectappUITests.debug.xcconfig */,
+				7B51FAF18CA35752552F0D97 /* Pods-iosmbaashyperprotectappUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -175,9 +183,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		555C91A71D0F0731003E84E3 /* swiftmbaas */ = {
+		555C91A71D0F0731003E84E3 /* iosmbaashyperprotectapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 555C91D01D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "swiftmbaas" */;
+			buildConfigurationList = 555C91D01D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iosmbaashyperprotectapp" */;
 			buildPhases = (
 				BD0D188E949776A82C19245E /* [CP] Check Pods Manifest.lock */,
 				555C91A41D0F0731003E84E3 /* Sources */,
@@ -189,14 +197,14 @@
 			);
 			dependencies = (
 			);
-			name = swiftmbaas;
+			name = iosmbaashyperprotectapp;
 			productName = swiftmbaas;
-			productReference = 555C91A81D0F0731003E84E3 /* swiftmbaas.app */;
+			productReference = 555C91A81D0F0731003E84E3 /* iosmbaashyperprotectapp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		555C91BB1D0F0731003E84E3 /* swiftmbaasTests */ = {
+		555C91BB1D0F0731003E84E3 /* iosmbaashyperprotectappTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 555C91D31D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "swiftmbaasTests" */;
+			buildConfigurationList = 555C91D31D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iosmbaashyperprotectappTests" */;
 			buildPhases = (
 				EB6F4C6CA3D160FAF0D6AA14 /* [CP] Check Pods Manifest.lock */,
 				555C91B81D0F0731003E84E3 /* Sources */,
@@ -208,14 +216,14 @@
 			dependencies = (
 				555C91BE1D0F0731003E84E3 /* PBXTargetDependency */,
 			);
-			name = swiftmbaasTests;
+			name = iosmbaashyperprotectappTests;
 			productName = swiftmbaasTests;
-			productReference = 555C91BC1D0F0731003E84E3 /* swiftmbaasTests.xctest */;
+			productReference = 555C91BC1D0F0731003E84E3 /* iosmbaashyperprotectappTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		555C91C61D0F0731003E84E3 /* swiftmbaasUITests */ = {
+		555C91C61D0F0731003E84E3 /* iosmbaashyperprotectappUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 555C91D61D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "swiftmbaasUITests" */;
+			buildConfigurationList = 555C91D61D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iosmbaashyperprotectappUITests" */;
 			buildPhases = (
 				3F8FB89FCFF8F631B2C8280D /* [CP] Check Pods Manifest.lock */,
 				555C91C31D0F0731003E84E3 /* Sources */,
@@ -227,9 +235,9 @@
 			dependencies = (
 				555C91C91D0F0731003E84E3 /* PBXTargetDependency */,
 			);
-			name = swiftmbaasUITests;
+			name = iosmbaashyperprotectappUITests;
 			productName = swiftmbaasUITests;
-			productReference = 555C91C71D0F0731003E84E3 /* swiftmbaasUITests.xctest */;
+			productReference = 555C91C71D0F0731003E84E3 /* iosmbaashyperprotectappUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -239,28 +247,28 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = IBM;
 				TargetAttributes = {
 					555C91A71D0F0731003E84E3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1110;
 					};
 					555C91BB1D0F0731003E84E3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1110;
 						TestTargetID = 555C91A71D0F0731003E84E3;
 					};
 					555C91C61D0F0731003E84E3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1110;
 						TestTargetID = 555C91A71D0F0731003E84E3;
 					};
 				};
 			};
-			buildConfigurationList = 555C91A31D0F0731003E84E3 /* Build configuration list for PBXProject "swiftmbaas" */;
+			buildConfigurationList = 555C91A31D0F0731003E84E3 /* Build configuration list for PBXProject "iosmbaashyperprotectapp" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -271,9 +279,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				555C91A71D0F0731003E84E3 /* swiftmbaas */,
-				555C91BB1D0F0731003E84E3 /* swiftmbaasTests */,
-				555C91C61D0F0731003E84E3 /* swiftmbaasUITests */,
+				555C91A71D0F0731003E84E3 /* iosmbaashyperprotectapp */,
+				555C91BB1D0F0731003E84E3 /* iosmbaashyperprotectappTests */,
+				555C91C61D0F0731003E84E3 /* iosmbaashyperprotectappUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -318,7 +326,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-swiftmbaasUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-iosmbaashyperprotectappUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,24 +339,20 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-swiftmbaas/Pods-swiftmbaas-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-iosmbaashyperprotectapp/Pods-iosmbaashyperprotectapp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BMSAnalyticsAPI/BMSAnalyticsAPI.framework",
 				"${BUILT_PRODUCTS_DIR}/BMSCore/BMSCore.framework",
 				"${BUILT_PRODUCTS_DIR}/BMSPush/BMSPush.framework",
-				"${BUILT_PRODUCTS_DIR}/IBMCloudAppID/IBMCloudAppID.framework",
-				"${BUILT_PRODUCTS_DIR}/JOSESwift/JOSESwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSAnalyticsAPI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSPush.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBMCloudAppID.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JOSESwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftmbaas/Pods-swiftmbaas-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iosmbaashyperprotectapp/Pods-iosmbaashyperprotectapp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BD0D188E949776A82C19245E /* [CP] Check Pods Manifest.lock */ = {
@@ -362,7 +366,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-swiftmbaas-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-iosmbaashyperprotectapp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -380,7 +384,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-swiftmbaasTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-iosmbaashyperprotectappTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -403,7 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				555C91C11D0F0731003E84E3 /* swiftmbaasTests.swift in Sources */,
+				555C91C11D0F0731003E84E3 /* iosmbaashyperprotectappTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				555C91CC1D0F0731003E84E3 /* swiftmbaasUITests.swift in Sources */,
+				555C91CC1D0F0731003E84E3 /* iosmbaashyperprotectappUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,12 +424,12 @@
 /* Begin PBXTargetDependency section */
 		555C91BE1D0F0731003E84E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 555C91A71D0F0731003E84E3 /* swiftmbaas */;
+			target = 555C91A71D0F0731003E84E3 /* iosmbaashyperprotectapp */;
 			targetProxy = 555C91BD1D0F0731003E84E3 /* PBXContainerItemProxy */;
 		};
 		555C91C91D0F0731003E84E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 555C91A71D0F0731003E84E3 /* swiftmbaas */;
+			target = 555C91A71D0F0731003E84E3 /* iosmbaashyperprotectapp */;
 			targetProxy = 555C91C81D0F0731003E84E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -454,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -510,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -558,100 +564,94 @@
 		};
 		555C91D11D0F0731003E84E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11E82E2A01DF386A2BD70BE6 /* Pods-swiftmbaas.debug.xcconfig */;
+			baseConfigurationReference = 10683A5EFCE6D38F5865DCA4 /* Pods-iosmbaashyperprotectapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "$(SRCROOT)/swiftmbaas/Info.plist";
+				INFOPLIST_FILE = iosapp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ENABLE_BITCODE = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.swiftmbaas;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosmbaashyperprotectapp;
+				PRODUCT_NAME = iosmbaashyperprotectapp;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		555C91D21D0F0731003E84E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CCAB15229E227CD9B62C913 /* Pods-swiftmbaas.release.xcconfig */;
+			baseConfigurationReference = D99A5E0ECCCAA407125167C9 /* Pods-iosmbaashyperprotectapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "$(SRCROOT)/swiftmbaas/Info.plist";
+				INFOPLIST_FILE = iosapp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ENABLE_BITCODE = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.swiftmbaas;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosmbaashyperprotectapp;
+				PRODUCT_NAME = iosmbaashyperprotectapp;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		555C91D41D0F0731003E84E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6079FEEC33F8145DDDA4A629 /* Pods-swiftmbaasTests.debug.xcconfig */;
+			baseConfigurationReference = 421ECF48CE1A15A5D40E24C1 /* Pods-iosmbaashyperprotectappTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = swiftmbaasTests/Info.plist;
+				INFOPLIST_FILE = iosappTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				ENABLE_BITCODE = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.swiftmbaasTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosmbaashyperprotectappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftmbaas.app/swiftmbaas";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosmbaashyperprotectapp.app/iosmbaashyperprotectapp";
 			};
 			name = Debug;
 		};
 		555C91D51D0F0731003E84E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F10189F0EAC0D667CEB59F6 /* Pods-swiftmbaasTests.release.xcconfig */;
+			baseConfigurationReference = DA8DC7FBF5AC6B89ABB63AAE /* Pods-iosmbaashyperprotectappTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = swiftmbaasTests/Info.plist;
+				INFOPLIST_FILE = iosappTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				ENABLE_BITCODE = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.swiftmbaasTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosmbaashyperprotectappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftmbaas.app/swiftmbaas";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosmbaashyperprotectapp.app/iosmbaashyperprotectapp";
 			};
 			name = Release;
 		};
 		555C91D71D0F0731003E84E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81F0A538FA2D46C0292F70E6 /* Pods-swiftmbaasUITests.debug.xcconfig */;
+			baseConfigurationReference = C65933A09D570A6EF91729CE /* Pods-iosmbaashyperprotectappUITests.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = swiftmbaasUITests/Info.plist;
+				INFOPLIST_FILE = iosappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				ENABLE_BITCODE = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.swiftmbaasUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosmbaashyperprotectappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = swiftmbaas;
 			};
 			name = Debug;
 		};
 		555C91D81D0F0731003E84E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9055531899FF137C2C228D44 /* Pods-swiftmbaasUITests.release.xcconfig */;
+			baseConfigurationReference = 7B51FAF18CA35752552F0D97 /* Pods-iosmbaashyperprotectappUITests.release.xcconfig */;
 			buildSettings = {
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = swiftmbaasUITests/Info.plist;
+				INFOPLIST_FILE = iosappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				ENABLE_BITCODE = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.swiftmbaasUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosmbaashyperprotectappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = swiftmbaas;
 			};
 			name = Release;
@@ -659,7 +659,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		555C91A31D0F0731003E84E3 /* Build configuration list for PBXProject "swiftmbaas" */ = {
+		555C91A31D0F0731003E84E3 /* Build configuration list for PBXProject "iosmbaashyperprotectapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				555C91CE1D0F0731003E84E3 /* Debug */,
@@ -668,7 +668,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		555C91D01D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "swiftmbaas" */ = {
+		555C91D01D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iosmbaashyperprotectapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				555C91D11D0F0731003E84E3 /* Debug */,
@@ -677,7 +677,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		555C91D31D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "swiftmbaasTests" */ = {
+		555C91D31D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iosmbaashyperprotectappTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				555C91D41D0F0731003E84E3 /* Debug */,
@@ -686,7 +686,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		555C91D61D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "swiftmbaasUITests" */ = {
+		555C91D61D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iosmbaashyperprotectappUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				555C91D71D0F0731003E84E3 /* Debug */,
